@@ -12,9 +12,6 @@ Vagrant.configure("2") do |config|
     # Copiar el archivo de configuración de settings.xml a la ubicación de Maven
     sudo cp /vagrant/settings.xml /etc/maven/settings.xml
 
-    # Copiar el archivo de configuración de pom.xml a la ubicación del proyecto
-    # sudo cp /vagrant/pom1.xml /vagrant/proyecto/pom1.xml
-
   SHELL
   config.vm.provision "shell", path: "provision.sh"
 end
