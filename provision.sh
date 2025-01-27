@@ -1,5 +1,5 @@
 # Actualización de los paquetes disponibles
-sudo apt update && sudo apt upgrade -y
+# sudo apt update && sudo apt upgrade -y
 
 # Instalación de OpenJDK 11, Tomcat 9 y Tomcat 9 Admin
 sudo apt install -y openjdk-11-jdk tomcat9 tomcat9-admin
@@ -29,7 +29,7 @@ sudo cp /vagrant/pom1.xml /vagrant/tomcat-war/pom.xml
 cd /vagrant/tomcat-war
 
 # Despliegue de la aplicacion
-mvn tomcat7:deploy
+sudo mvn tomcat7:deploy
 
 # Volver a la carpeta raíz
 cd /
@@ -38,19 +38,19 @@ cd /
 sudo apt update && sudo apt install -y git
 
 # Clonar el repositorio de la aplicación
-git clone https://github.com/cameronmcnz/rock-paper-scissors.git
+sudo git clone https://github.com/cameronmcnz/rock-paper-scissors.git
 
 # Entrar en el directorio de la aplicación
 cd rock-paper-scissors
 
 # Cambiar de rama
-git checkout patch-1
+sudo git checkout patch-1
 
 # Copiamos el archivo pom2.xml
 sudo cp /vagrant/pom2.xml pom.xml
 
 # Despliegue de la aplicacion
-mvn tomcat7:deploy
+sudo mvn tomcat7:deploy
 
 # Reinicio del servicio Tomcat para aplicar cambios
 sudo systemctl restart tomcat9
