@@ -68,27 +68,27 @@ Después de ejecutar estos comandos, deberías ver un mensaje de `BUILD SUCCESS`
 
 ### Página Principal (localhost)
 
-![localhost](../capturas/locaclhost.png)
+![localhost](./capturas/locaclhost.png)
 
 ### Manager
 
-![manager](../capturas/manager.png)
+![manager](./capturas/manager.png)
 
 ### Host Manager
 
-![host-manager](../capturas/host-manager.png)
+![host-manager](./capturas/host-manager.png)
 
 ### Aplicación tomcat1war
 
-![tomcat1war](../capturas/tomcat1war.png)
+![tomcat1war](./capturas/tomcat1war.png)
 
 ### Aplicación Despliegue
 
-![despliegue](../capturas/despliegue.png)
+![despliegue](./capturas/despliegue.png)
 
 ### Aplicación RPS
 
-![rps](../capturas/rps.png)
+![rps](./capturas/rps.png)
 
 ---
 
